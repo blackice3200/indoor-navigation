@@ -1,5 +1,6 @@
-# Machine-Learning-Capstone-Project
-Machine Learning Capstone Project - Udacity MLND(Indoor classification to help blind people)
+This project aim to help blind people identify the different type of rooms in home by taking frames from a real-time video and process this frame and identify the type of the room and pronounce it loud to be heard.  
+
+To solve the problem in this project I used a transfer learning technique like Resnet50 and Mobilenet v2 , so to use the transfer learning you need preprocess the data like converting all the dataset into 4D tensor array by loading the data and converting it to numpy array and then expand the dimension. After creating the model and train it , I have implemented an algorithm to take real-time frames from the camera and pronounce the result of the classification loud using speakers.
 
 
 1-Dataset URL used in the project:
@@ -7,7 +8,6 @@ Machine Learning Capstone Project - Udacity MLND(Indoor classification to help b
 http://web.mit.edu/torralba/www/indoor.html
 
 http://groups.csail.mit.edu/vision/datasets/ADE20K/ 
-
 
 
 2.Following are the details of Software environments with version details 
@@ -21,3 +21,4 @@ http://groups.csail.mit.edu/vision/datasets/ADE20K/
  tqdm 4.23.4
  
  opencv 3.3.1
+
